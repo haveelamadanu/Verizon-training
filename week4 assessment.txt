@@ -1,0 +1,35 @@
+Microsoft Windows [Version 10.0.22631.4037]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\verizon>docker --version
+Docker version 27.1.1, build 6312585
+
+C:\Users\verizon>docker ps
+CONTAINER ID   IMAGE                             COMMAND                  CREATED         STATUS         PORTS     NAMES
+831c2a70eae4   docker/welcome-to-docker:latest   "/docker-entrypoint.…"   3 minutes ago   Up 3 minutes   80/tcp    flamboyant_shaw
+
+C:\Users\verizon>docker ps -a
+CONTAINER ID   IMAGE                             COMMAND                  CREATED         STATUS         PORTS     NAMES
+831c2a70eae4   docker/welcome-to-docker:latest   "/docker-entrypoint.…"   3 minutes ago   Up 3 minutes   80/tcp    flamboyant_shaw
+
+C:\Users\verizon>docker ps
+CONTAINER ID   IMAGE                             COMMAND                  CREATED         STATUS         PORTS     NAMES
+831c2a70eae4   do 5 minutes   to-docker:latest   "/docker-entrypoint.…"   5 minutes ago   Up 5 minutes   80/tcp    flamboyant_shaw
+                 docker start
+C:\Users\verizon>docker start flamboyant_shaw
+flamboyant_shaw
+                 docker ps
+CONTAINER ID   IMAGE                             COMMAND                  CREATED         STATUS         PORTS     NAMES
+831c2a70eae4   docker/welcome-to-docker:latest   "/docker-entrypoint.…"   7 minutes ago   Up 7 minutes   80/tcp    flamboyant_shaw
+
+C:\Users\verizon>docker stop flamboyant_shaw
+flamboyant_shaw
+
+C:\Users\verizon>docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+C:\Users\verizon>docker restart flamboyant_shaw
+flamboyant_shaw
+
+C:\Users\verizon>mkdir myapp
+A subdirectory or file myapp already exists.
